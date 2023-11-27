@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//Primary
+
+$Light-red: hsl(0, 100%, 67%);
+$Light-redAlpha: rgba(255, 87, 87,0.1);
+$Orangey-yellow: hsl(39, 100%, 56%);
+$Orangey-yellowAlpha: hsla(39, 100%, 56%, 0.1);
+$Green-teal: hsl(166, 100%, 37%);
+$Green-tealAlpha: hsl(166, 100%, 37%,0.1);
+$Cobalt-blue: hsl(234, 85%, 45%);
+$Cobalt-blueAlpha: hsl(234, 85%, 45%,0.1);
+
+//Gradients
+
+$Light-royal-blueB: #2e2be9;
+$Light-slate-blueB: #7857ff;
+$Violet-blueC: hsla(256, 72%, 46%, 1);
+$Persian-blueC: hsla(241, 72%, 46%, 0);
+
+//Neutral
+$White: hsl(0, 0%, 100%);
+$Pale-blue: hsl(221deg 7.36% 73.81%);
+$Light-lavender: hsl(241, 100%, 89%);
+$Dark-gray-blue: hsl(224, 30%, 27%);
+
+*{
+    font-weight: 700;
+}
+
+//Primary
+.Light-red {
+    background-color: $Light-red;
+}
+
+.Light-redAlpha{
+    background-color: $Light-redAlpha;
+}
+
+.Orangey-yellow {
+    background-color: $Orangey-yellow;
+}
+
+.Orangey-yellowAlpha {
+    background-color: $Orangey-yellowAlpha;
+}
+
+.Green-teal {
+    background-color: $Green-teal;
+}
+
+.Green-tealAlpha {
+    background-color: $Green-tealAlpha;
+}
+
+.Cobalt-blue {
+    background-color: $Cobalt-blue;
+}
+
+.Cobalt-blueAlpha {
+    background-color: $Cobalt-blueAlpha;
+}
+
+//Gradients
+
+.Light-royal-blueB {
+    background-color: $Light-royal-blueB;
+}
+
+.Light-slate-blueB {
+    background-color: $Light-slate-blueB;
+}
+
+.Violet-blueC {
+    background-color: $Violet-blueC;
+}
+
+.Persian-blueC {
+    background-color: $Persian-blueC;
+}
+
+//Neutral
+.White {
+    background-color: $White;
+}
+
+.Pale-blue {
+    background-color: $Pale-blue;
+}
+
+.Light-lavender {
+    background-color: $Light-lavender;
+}
+
+.Dark-gray-blue {
+    background-color: $Dark-gray-blue;
+}
+
+//Primary
+.colorLight-red {
+    color: $Light-red;
+}
+
+.colorOrangey-yellow {
+    color: $Orangey-yellow;
+}
+
+.colorGreen-teal {
+    color: $Green-teal;
+}
+
+.colorCobalt-blue {
+    color: $Cobalt-blue;
+}
+
+//Gradients
+
+.colorLight-royal-blueB {
+    color: $Light-royal-blueB;
+}
+
+.colorLight-slate-blueB {
+    color: $Light-slate-blueB;
+}
+
+.colorViolet-blueC {
+    color: $Violet-blueC;
+}
+
+.colorPersian-blueC {
+    color: $Persian-blueC;
+}
+
+//Neutral
+.colorWhite {
+    color: $White;
+}
+
+.colorPale-blue {
+    color: $Pale-blue;
+}
+
+.colorLight-lavender {
+    color: $Light-lavender;
+}
+
+.colorDark-gray-blue {
+    color: $Dark-gray-blue;
+}
+.container__sumary{
+    overflow: hidden;
+    border-radius: 1.5rem;
+    box-shadow: 2px 2px 20px hsl(224, 30%, 27%);
+}
+.container__sumary>*{
+    width: 26vw;
+}

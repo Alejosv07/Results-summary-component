@@ -1,0 +1,26 @@
+@import url(../../styles.scss);
+
+.sideColor{
+    background: rgb(46,43,233);
+    background: linear-gradient(0deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+}
+
+.colorCircle{
+    background: rgb(46,43,233);
+    background: linear-gradient(0deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
+}
+
+@media only screen and (max-width: 768px) {
+    .container__sumary{
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    .container__sumary>*{
+        width: 100vw;
+    }
+
+    .sideColor {
+        padding: 1em;
+    }
+}
